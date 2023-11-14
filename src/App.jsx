@@ -12,7 +12,7 @@ import { Resume } from "./Sections/Resume"
 function App () {
   return (
     <Router>
-      <Header>
+      <Header/>
         <main>
           <Routes>
             <Route path="/about-me" element={<AboutMe />} />
@@ -22,7 +22,6 @@ function App () {
           </Routes>
         </main>
         <Footer />
-      </Header>
     </Router>
   );
 }
