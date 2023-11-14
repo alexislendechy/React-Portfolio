@@ -1,0 +1,98 @@
+body,
+h1,
+h2,
+ul,
+li,
+p,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #1a0062f3;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a.current {
+    color: yellow;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #1a0062f3;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.notification {
+    color: red;
+    font-style: italic;
+}
+
+.resume-link {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
