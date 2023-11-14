@@ -1,5 +1,7 @@
 # React-Portfolio
 
+[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
+
 Welcome to my personal portfolio website built with React!
 
 ## Table of Contents
