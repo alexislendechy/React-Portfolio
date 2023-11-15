@@ -5,7 +5,7 @@ export function AboutMe() {
     return (
         <section id="about-me">
             <h2>About Me</h2>
-            <img src={profile} alt="ALL" style={{ width: "250px", height: "250px", borderRadius: "30%"}} />
+            <img src={profile} alt="ALL" style={{ width: "190px", height: "250px", borderRadius: "25%"}} />
             <br /> <br />
             <p>
                 Hi, I am Alexis Lendechy, a Chemical Engineer who has decided to move to the coding world and face 
