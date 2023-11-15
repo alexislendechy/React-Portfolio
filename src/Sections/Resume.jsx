@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/resume.pdf"
 
 export function Resume() {
     return (
@@ -85,6 +86,9 @@ export function Resume() {
                     This journey is just about to begin ✨
                 </li>
                 <br />
+                <a href={resume} download>
+                Download Resume
+            </a>
             </ul>
         </section>
     );
