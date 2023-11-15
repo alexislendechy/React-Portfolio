@@ -67,6 +67,7 @@ export function Contact() {
           />
           </div>
           <div>       
+          <label htmlFor="email">Message:</label>
           <textarea
             id="message"
             name="message"
